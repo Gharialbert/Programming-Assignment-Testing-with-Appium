@@ -9,8 +9,6 @@ desired_capabilities = {
     "automationName": "UiAutomator2"
 }
 
-driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_capabilities)
-
 # Example test scenario
     # My test steps go here
     element = driver.find_element_by_id("com.example.android:id/button")
